@@ -1,0 +1,48 @@
+
+Clover EFI installer log - Fri Feb 14 16:22:39 PST 2020
+Installer version: v2.4k r4630 EFI bootloader
+======================================================
+/dev/disk0 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *480.1 GB   disk0
+   1:                        EFI EFI                     209.7 MB   disk0s1
+   2:                 Apple_APFS Container disk1         479.9 GB   disk0s2
+
+/dev/disk1 (synthesized):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      APFS Container Scheme -                      +479.9 GB   disk1
+                                 Physical Store disk0s2
+   1:                APFS Volume MAC HD                  21.4 GB    disk1s1
+   2:                APFS Volume Preboot                 21.7 MB    disk1s2
+   3:                APFS Volume Recovery                515.8 MB   disk1s3
+   4:                APFS Volume VM                      20.5 KB    disk1s4
+
+/dev/disk2 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:     FDisk_partition_scheme                        *2.0 TB     disk2
+   1:               Windows_NTFS STORAGE                 2.0 TB     disk2s1
+
+/dev/disk3 (disk image):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        +912.8 MB   disk3
+   1:                  Apple_HFS DingTalk For Mac        912.7 MB   disk3s1
+
+/dev/disk4 (disk image):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        +31.5 MB    disk4
+   1:                  Apple_HFS 网易云音乐              31.5 MB    disk4s1
+
+Target volume /Volumes/MAC HD on disk1 is APFS on physical store disk0s2
+======================================================
+Backing up EFI files
+
+Backing up /Volumes/MAC HD/EFIROOTDIR/EFI folder to /Volumes/MAC HD/EFI-Backups/r5103/2020-02-14-16h22/EFI
+======================================================
+Installing BootSectors/BootLoader
+
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /
+Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /
+
+======================================================
+=========== Clover EFI Installation Finish ===========
+======================================================
